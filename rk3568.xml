@@ -29,8 +29,8 @@
     <linkfile dest="build.sh" src="build.sh"/>
   </project>
 
-  <!-- friendlywrt 소스 코드 (포크된 저장소 사용) -->
-  <project path="friendlywrt" name="friendlywrt" remote="zelesdev" revision="refs/heads/master-v23.05" />
+ <!-- friendlywrt source code -->
+  <project path="friendlywrt" name="friendlywrt" remote="origin" revision="refs/heads/master-v23.05" />
 
   <!-- toolchain -->
   <project path="toolchain" name="prebuilts" remote="origin" revision="refs/heads/master" />
