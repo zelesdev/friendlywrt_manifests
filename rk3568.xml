@@ -10,7 +10,7 @@
           fetch="https://github.com/zelesdev"
           revision="refs/heads/master" />
 
-  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi6-v6.1.y" />
+  <project path="kernel" name="kernel-rockchip" remote="zelesdev" revision="refs/heads/nanopi6-v6.1.y" />
   <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi5-v2017.09" />
   <project path="rkbin" name="rkbin" remote="origin" revision="refs/heads/nanopi5" />
 
